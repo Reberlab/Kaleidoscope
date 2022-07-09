@@ -1,0 +1,67 @@
+<root xmlns:Empirical="https://www.reberlab.org/">
+<Empirical:config>{
+"SessionStructure": [{
+"task": "SequentialMemory",
+"first_instructions": ["This is a learning and memory study.","Your goal is to memorize a repeating list of 12 random images.","","The correct list will be presented on the next screen.","The images will be presented fast, but don&#8217;t worry","because you will get a lot more practice with the list.","","Press any key when ready to start."],
+"training_instructions": ["The list will now be presented for about 30 more minutes","","There will also be a fake image on half of the trials.","","You have to report after each list if you spot an imposter image:","Pressing 1 for yes or 2 for no.","","The order of the images may vary","","You might feel like you are guessing at first.","Keep trying. You will learn the correct list with practice.","","It is helpful to only focus on a few of the images at first.","This will help slowly build up confidence in the entire list.","","Press any key to begin"],
+"test_instructions": [],
+"correct_points": 100,
+"streak_points": [[3,100],[4,100],[5,250],[6,250],[7,300],[8,300],[9,400],[10,500],[11,500],[12,500],[13,500],[14,500],[15,500],[16,500],[17,500],[18,500],[19,500],[20,500],[21,500],[22,500],[23,500],[24,500],[25,500],[26,500],[27,500],[28,500],[29,500],[30,500],[31,500],[32,500],[33,500],[34,500],[35,500],[36,500],[37,500],[38,500],[39,500],[40,500],[41,500],[42,500],[43,500],[44,500],[45,500],[46,500],[47,500],[48,500],[49,500],[50,500]],
+"num_stim": 12,
+"study_length": 300,
+"training_trials": 2,
+"test_trials": 4,
+"foil_mode": "hard",
+"foil_similarity": 75
+},
+{ "task": "EndSession", "min_delay": 48.0, 
+  "message": "Come back for part 2 in 48 hours"},
+{ "task": "SequentialMemory",
+ "show_sequence_first": false,
+ "training_instructions": ["Press any key to begin"],
+ "test_instructions": ["Keep looking for imposters on the list",
+ "Press any key to begin"],
+"training_trials": 0
+}
+]
+}
+</Empirical:config>
+<Empirical:appInfo>Applet name: sequential_memory.html
+Version: 44
+</Empirical:appInfo>
+<Empirical:time>2022-01-01 17:15:32.652304
+</Empirical:time>
+<Empirical:privatedata>WorkerId: test
+IP address: 2601:246:c00:1a90:1d99:9a1c:cd6a:77c9
+</Empirical:privatedata>
+<Empirical:datalog>3.43	Memory retest, Stimuli: [{"s":6,"p":[{"c":"#1C054E","d":[57.9,1.7,35.2,4.5]},{"c":"#FFF36B","d":[50.9,24.3,58.8,0.4]},{"c":"#E56103","d":[45,53.6,15.4,11.8]}]},{"s":6,"p":[{"c":"#4CBDC9","d":[48.7,53,51.1,0.6]},{"c":"#E7F804","d":[9.8,11.2,17,53.5]},{"c":"#4BF1CF","d":[40.7,11.6,9,32.5]}]},{"s":6,"p":[{"c":"#07009B","d":[23.1,32.6,25.2,30.9]},{"c":"#640996","d":[46.9,56.2,57.9,58.9]},{"c":"#5682AF","d":[11.7,15.6,39.8,59.8]}]},{"s":6,"p":[{"c":"#F15825","d":[3.6,1.9,6.6,12.4]},{"c":"#22CE91","d":[59.7,26.8,18.7,15.7]},{"c":"#652BB1","d":[56.8,4.9,4.6,52.6]}]},{"s":6,"p":[{"c":"#281112","d":[48.3,41.7,21,43.5]},{"c":"#139ECE","d":[36.8,23.6,30.3,30.8]},{"c":"#129BAD","d":[44,47.1,44.5,1.9]}]},{"s":6,"p":[{"c":"#9C422B","d":[21.8,41.5,21.9,11.6]},{"c":"#7EAC46","d":[39.2,54.2,46.3,36]},{"c":"#16AB01","d":[28.2,46.2,24,9.8]}]},{"s":6,"p":[{"c":"#4151C9","d":[15.7,28.9,30.9,22]},{"c":"#1AB868","d":[45.8,16,52,44.5]},{"c":"#1DEE21","d":[48,25.4,47.8,31.9]}]},{"s":6,"p":[{"c":"#048FCE","d":[53.3,33.7,9.5,1.8]},{"c":"#B7219A","d":[4.1,58.4,20.9,45.8]},{"c":"#50C7A2","d":[57.7,31.9,40.2,51.4]}]},{"s":6,"p":[{"c":"#EF2FE4","d":[56.7,47.1,40.8,1.3]},{"c":"#C4AD8F","d":[35,49.3,26.9,39.1]},{"c":"#3CCE76","d":[58.3,36.8,37.6,17.3]}]},{"s":6,"p":[{"c":"#BB15B9","d":[4.8,3.5,4.1,21.6]},{"c":"#C37139","d":[39.1,1.6,43.1,48.5]},{"c":"#6EA38F","d":[2.9,34.1,37.8,13.6]}]},{"s":6,"p":[{"c":"#1253DE","d":[2.8,50.9,27,29.4]},{"c":"#79B14E","d":[1.8,8.7,54.4,29.6]},{"c":"#77B444","d":[44.2,52.7,53.4,46.7]}]},{"s":6,"p":[{"c":"#5E0A69","d":[46.4,12.6,24,21.3]},{"c":"#457788","d":[31.7,33.5,20.4,49.1]},{"c":"#DBC1DB","d":[27.4,55.3,18.8,53.8]}]}]
+3.43	Training order created, 1 imposter trials
+3.43	Order 1,0
+3.43	Test order created, 2 imposter trials, 1 in sequence trials
+3.43	Order 1,2,0,3
+4.92	Starting new block
+4.92	Training order created, 0 imposter trials
+4.92	Order 
+4.92	Test order created, 2 imposter trials, 1 in sequence trials
+4.92	Order 2,0,1,3
+7.80	No imposter
+15.44	Pressed 1
+15.44	Trial 1 incorrect OrderType 2 Shuffled true Imposter -1 0 points awarded, 0 total
+16.56	No imposter
+23.08	Pressed 2
+23.08	Trial 2 correct OrderType 0 Shuffled false Imposter -1 100 points awarded, 100 total
+23.78	Imposter at position 5
+30.32	Pressed 1
+30.32	Trial 3 correct OrderType 1 Shuffled false Imposter 5 100 points awarded, 200 total
+30.81	Imposter at position 1
+37.83	Pressed 1
+37.83	Trial 4 correct OrderType 3 Shuffled true Imposter 1 200 points awarded, 400 total
+37.84	Browser name Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.110 Safari/537.36
+37.84	Used keyboard [true], mouse [true], touchscreen [false]
+</Empirical:datalog>
+
+<Empirical:recorddata>RecordId: 32593
+SessionToken: test
+WorkerId: 7a8a094417611f9a
+UploadDate: 2022-01-01 23:15:32.654253+00:00
+</Empirical:recorddata></root>
