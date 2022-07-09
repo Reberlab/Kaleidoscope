@@ -1,0 +1,928 @@
+<root xmlns:Empirical="https://www.reberlab.org/">
+<Empirical:config>{
+"SessionStructure": [
+{
+"task": "SequentialMemory",
+"first_instructions": ["This is a learning and memory study.","Your goal is to memorize a repeating list of 12 random images.","","The correct list will be presented on the next screen.","The images will be presented fast, but don&#8217;t worry","because you will get a lot more practice with the list.","","Press any key when ready to start."],
+"training_instructions": ["The list will now be presented for about 60 more minutes","","There will also be a fake image on half of the trials.","","You have to report after each list if you spot an imposter image:","Pressing 1 for yes or 2 for no.","","The order of the images may vary","","You might feel like you are guessing at first.","Keep trying. You will learn the correct list with practice.","","It is helpful to only focus on a few of the images at first.","This will help slowly build up confidence in the entire list.","","Press any key to begin"],
+"test_instructions": [],
+"correct_points": 100,
+"streak_points": [[3,100],[4,100],[5,250],[6,250],[7,300],[8,300],[9,400],[10,500],[11,500],[12,500],[13,500],[14,500],[15,500],[16,500],[17,500],[18,500],[19,500],[20,500],[21,500],[22,500],[23,500],[24,500],[25,500],[26,500],[27,500],[28,500],[29,500],[30,500],[31,500],[32,500],[33,500],[34,500],[35,500],[36,500],[37,500],[38,500],[39,500],[40,500],[41,500],[42,500],[43,500],[44,500],[45,500],[46,500],[47,500],[48,500],[49,500],[50,500]],
+"num_stim": 12,
+"study_length": 300,
+"training_trials": 50,
+"test_trials": 20,
+"foil_mode": "hard",
+"foil_similarity": 75
+},
+{ "task": "SequentialMemory",
+ "show_sequence_first": false,
+ "training_instructions": ["Press any key to begin"],
+ "test_instructions": ["Keep looking for imposters on the list",
+ "Press any key to begin"]
+},
+{ "task": "SequentialMemory",
+ "show_sequence_first": false,
+ "training_instructions": ["Press any key to begin"],
+ "test_instructions": ["Keep looking for imposters on the list",
+ "Press any key to begin"]
+},
+{ "task": "SequentialMemory",
+ "show_sequence_first": false,
+ "training_instructions": ["Press any key to begin"],
+ "test_instructions": ["Keep looking for imposters on the list",
+ "Press any key to begin"]
+}
+]
+}
+</Empirical:config>
+<Empirical:appInfo>Applet name: sequential_memory.html
+Version: 44
+</Empirical:appInfo>
+<Empirical:time>2022-02-07 14:52:07.568372
+</Empirical:time>
+<Empirical:privatedata>WorkerId: A31XT6RPLN6359
+IP address: 2601:981:c07f:94f0:6d7f:927a:d8f8:cadb
+</Empirical:privatedata>
+<Empirical:datalog>30.52	Stimulus strings 12 generated
+30.52	{"s":6,"p":[{"c":"#C33356","d":[24.2,50.5,60,27.8]},{"c":"#4BC448","d":[28.7,4.1,46,9.1]},{"c":"#57CE42","d":[34.9,30.9,37.1,13.6]}]}
+30.52	{"s":6,"p":[{"c":"#9D6695","d":[34.1,12,11,8.2]},{"c":"#B5D697","d":[21.5,32.8,54.2,37.7]},{"c":"#1BE678","d":[45,48.8,36.7,57.6]}]}
+30.52	{"s":6,"p":[{"c":"#4D7DDC","d":[51,9.5,48.3,51.3]},{"c":"#6874FF","d":[54.2,53.2,9.5,8.3]},{"c":"#316B84","d":[16.9,50.8,55.1,26.4]}]}
+30.52	{"s":6,"p":[{"c":"#339770","d":[29.7,26.1,17.2,52]},{"c":"#A176F3","d":[51.1,59.2,1.8,53.4]},{"c":"#34338D","d":[35.2,32.7,40.7,50.3]}]}
+30.52	{"s":6,"p":[{"c":"#1CEFE0","d":[43,44.6,22.1,24.9]},{"c":"#674D98","d":[48.2,33,44.5,13.8]},{"c":"#504C46","d":[20.3,8.6,44.8,38.7]}]}
+30.52	{"s":6,"p":[{"c":"#D14177","d":[28.3,50.9,15.4,22.7]},{"c":"#39B72E","d":[1.4,0.7,43.1,53.6]},{"c":"#5AEC19","d":[47.7,28.9,31.1,21.6]}]}
+30.52	{"s":6,"p":[{"c":"#6A8130","d":[23,26.9,39.6,34.5]},{"c":"#C3C822","d":[47.2,58.8,56.6,56.7]},{"c":"#BD426B","d":[46.3,42,36.8,43.1]}]}
+30.52	{"s":6,"p":[{"c":"#9F2C5A","d":[32.5,7.6,10.7,29.6]},{"c":"#4F3307","d":[24.3,45,26.1,1.4]},{"c":"#C3CD9B","d":[1.9,32.7,32.7,26.5]}]}
+30.52	{"s":6,"p":[{"c":"#144E4F","d":[42.5,31.3,13.7,18]},{"c":"#7A539A","d":[22.4,16.3,19.9,54.8]},{"c":"#39465D","d":[30.9,53,18.9,32.5]}]}
+30.52	{"s":6,"p":[{"c":"#DFF736","d":[26.2,10.3,57.1,38.4]},{"c":"#48BEC3","d":[25.6,36.4,21.9,50.9]},{"c":"#4F80E7","d":[1.9,54.7,59.2,21.2]}]}
+30.52	{"s":6,"p":[{"c":"#59405D","d":[24.2,13.7,14.2,16.3]},{"c":"#3510B6","d":[4,22.8,2.5,3.8]},{"c":"#8F0E37","d":[23.2,4.6,14.8,42.1]}]}
+30.52	{"s":6,"p":[{"c":"#25011E","d":[1.5,59,19.2,26.3]},{"c":"#741EC9","d":[13.9,34.1,58.1,6.6]},{"c":"#D7404C","d":[22.6,51.7,0.3,51]}]}
+30.52	Training order created, 25 imposter trials
+30.52	Order 1,0,1,0,1,0,0,1,1,0,0,1,0,1,1,1,1,1,1,1,0,1,1,0,0,1,1,0,1,0,0,0,1,0,1,0,0,0,0,0,0,1,1,1,1,0,0,0,0,1
+30.52	Test order created, 10 imposter trials, 5 in sequence trials
+30.52	Order 2,3,0,1,0,1,1,3,2,0,1,1,0,3,3,0,2,3,2,2
+76.14	Imposter at position 10
+86.08	Pressed 2
+86.08	Trial 1 incorrect OrderType 1 Shuffled false Imposter 10 0 points awarded, 0 total
+92.87	No imposter
+101.08	Pressed 2
+101.08	Trial 2 correct OrderType 0 Shuffled false Imposter -1 100 points awarded, 100 total
+104.79	Imposter at position 1
+113.62	Pressed 2
+113.62	Trial 3 incorrect OrderType 1 Shuffled false Imposter 1 0 points awarded, 100 total
+115.31	No imposter
+122.75	Pressed 1
+122.75	Trial 4 incorrect OrderType 0 Shuffled false Imposter -1 0 points awarded, 100 total
+125.60	Imposter at position 0
+133.01	Pressed 2
+133.01	Trial 5 incorrect OrderType 1 Shuffled false Imposter 0 0 points awarded, 100 total
+134.41	No imposter
+142.16	Pressed 2
+142.16	Trial 6 correct OrderType 0 Shuffled false Imposter -1 100 points awarded, 200 total
+147.17	No imposter
+155.00	Pressed 1
+155.00	Trial 7 incorrect OrderType 0 Shuffled false Imposter -1 0 points awarded, 200 total
+156.37	Imposter at position 9
+164.24	Pressed 2
+164.24	Trial 8 incorrect OrderType 1 Shuffled false Imposter 9 0 points awarded, 200 total
+165.21	Imposter at position 11
+172.83	Pressed 2
+172.83	Trial 9 incorrect OrderType 1 Shuffled false Imposter 11 0 points awarded, 200 total
+173.93	No imposter
+181.41	Pressed 2
+181.41	Trial 10 correct OrderType 0 Shuffled false Imposter -1 100 points awarded, 300 total
+182.76	No imposter
+190.39	Pressed 2
+190.39	Trial 11 correct OrderType 0 Shuffled false Imposter -1 100 points awarded, 400 total
+191.57	Imposter at position 5
+198.59	Pressed 1
+198.59	Trial 12 correct OrderType 1 Shuffled false Imposter 5 200 points awarded, 600 total
+199.62	No imposter
+207.02	Pressed 2
+207.02	Trial 13 correct OrderType 0 Shuffled false Imposter -1 200 points awarded, 800 total
+208.19	Imposter at position 6
+215.50	Pressed 2
+215.50	Trial 14 incorrect OrderType 1 Shuffled false Imposter 6 0 points awarded, 800 total
+216.54	Imposter at position 2
+223.93	Pressed 1
+223.93	Trial 15 correct OrderType 1 Shuffled false Imposter 2 100 points awarded, 900 total
+226.25	Imposter at position 8
+234.88	Pressed 1
+234.88	Trial 16 correct OrderType 1 Shuffled false Imposter 8 100 points awarded, 1000 total
+235.99	Imposter at position 7
+243.65	Pressed 1
+243.65	Trial 17 correct OrderType 1 Shuffled false Imposter 7 200 points awarded, 1200 total
+245.88	Imposter at position 3
+253.15	Pressed 2
+253.15	Trial 18 incorrect OrderType 1 Shuffled false Imposter 3 0 points awarded, 1200 total
+254.00	Imposter at position 4
+261.21	Pressed 1
+261.21	Trial 19 correct OrderType 1 Shuffled false Imposter 4 100 points awarded, 1300 total
+261.88	Imposter at position 8
+268.68	Pressed 1
+268.68	Trial 20 correct OrderType 1 Shuffled false Imposter 8 100 points awarded, 1400 total
+269.28	No imposter
+353.88	Pressed 1
+353.88	Trial 21 incorrect OrderType 0 Shuffled false Imposter -1 0 points awarded, 1400 total
+355.90	Imposter at position 9
+363.08	Pressed 1
+363.08	Trial 22 correct OrderType 1 Shuffled false Imposter 9 100 points awarded, 1500 total
+364.52	Imposter at position 3
+371.97	Pressed 2
+371.97	Trial 23 incorrect OrderType 1 Shuffled false Imposter 3 0 points awarded, 1500 total
+374.50	No imposter
+381.66	Pressed 2
+381.66	Trial 24 correct OrderType 0 Shuffled false Imposter -1 100 points awarded, 1600 total
+382.61	No imposter
+389.89	Pressed 2
+389.89	Trial 25 correct OrderType 0 Shuffled false Imposter -1 100 points awarded, 1700 total
+391.07	Imposter at position 1
+398.21	Pressed 1
+398.21	Trial 26 correct OrderType 1 Shuffled false Imposter 1 200 points awarded, 1900 total
+399.30	Imposter at position 2
+406.69	Pressed 2
+406.69	Trial 27 incorrect OrderType 1 Shuffled false Imposter 2 0 points awarded, 1900 total
+408.51	No imposter
+416.60	Pressed 2
+416.60	Trial 28 correct OrderType 0 Shuffled false Imposter -1 100 points awarded, 2000 total
+417.34	Imposter at position 4
+423.81	Pressed 1
+423.81	Trial 29 correct OrderType 1 Shuffled false Imposter 4 100 points awarded, 2100 total
+424.42	No imposter
+430.90	Pressed 2
+430.90	Trial 30 correct OrderType 0 Shuffled false Imposter -1 200 points awarded, 2300 total
+431.43	No imposter
+437.90	Pressed 2
+437.90	Trial 31 correct OrderType 0 Shuffled false Imposter -1 200 points awarded, 2500 total
+438.35	No imposter
+444.93	Pressed 2
+444.93	Trial 32 correct OrderType 0 Shuffled false Imposter -1 350 points awarded, 2850 total
+445.37	Imposter at position 11
+451.97	Pressed 1
+451.97	Trial 33 correct OrderType 1 Shuffled false Imposter 11 350 points awarded, 3200 total
+452.40	No imposter
+458.89	Pressed 1
+458.89	Trial 34 incorrect OrderType 0 Shuffled false Imposter -1 0 points awarded, 3200 total
+459.80	Imposter at position 10
+466.24	Pressed 1
+466.24	Trial 35 correct OrderType 1 Shuffled false Imposter 10 100 points awarded, 3300 total
+466.67	No imposter
+473.22	Pressed 2
+473.22	Trial 36 correct OrderType 0 Shuffled false Imposter -1 100 points awarded, 3400 total
+473.70	No imposter
+481.06	Pressed 1
+481.06	Trial 37 incorrect OrderType 0 Shuffled false Imposter -1 0 points awarded, 3400 total
+481.83	No imposter
+488.54	Pressed 2
+488.54	Trial 38 correct OrderType 0 Shuffled false Imposter -1 100 points awarded, 3500 total
+489.07	No imposter
+495.62	Pressed 2
+495.62	Trial 39 correct OrderType 0 Shuffled false Imposter -1 100 points awarded, 3600 total
+496.21	No imposter
+502.72	Pressed 2
+502.72	Trial 40 correct OrderType 0 Shuffled false Imposter -1 200 points awarded, 3800 total
+503.17	No imposter
+509.63	Pressed 1
+509.63	Trial 41 incorrect OrderType 0 Shuffled false Imposter -1 0 points awarded, 3800 total
+510.09	Imposter at position 6
+516.59	Pressed 1
+516.59	Trial 42 correct OrderType 1 Shuffled false Imposter 6 100 points awarded, 3900 total
+517.02	Imposter at position 5
+523.53	Pressed 1
+523.53	Trial 43 correct OrderType 1 Shuffled false Imposter 5 100 points awarded, 4000 total
+524.11	Imposter at position 0
+530.59	Pressed 1
+530.59	Trial 44 correct OrderType 1 Shuffled false Imposter 0 200 points awarded, 4200 total
+531.08	Imposter at position 7
+537.52	Pressed 1
+537.52	Trial 45 correct OrderType 1 Shuffled false Imposter 7 200 points awarded, 4400 total
+537.94	No imposter
+544.37	Pressed 2
+544.37	Trial 46 correct OrderType 0 Shuffled false Imposter -1 350 points awarded, 4750 total
+544.81	No imposter
+551.28	Pressed 2
+551.28	Trial 47 correct OrderType 0 Shuffled false Imposter -1 350 points awarded, 5100 total
+551.79	No imposter
+558.59	Pressed 2
+558.59	Trial 48 correct OrderType 0 Shuffled false Imposter -1 400 points awarded, 5500 total
+559.11	No imposter
+565.71	Pressed 2
+565.71	Trial 49 correct OrderType 0 Shuffled false Imposter -1 400 points awarded, 5900 total
+566.25	Imposter at position 8
+572.69	Pressed 1
+572.69	Trial 50 correct OrderType 1 Shuffled false Imposter 8 500 points awarded, 6400 total
+574.52	No imposter
+581.00	Pressed 1
+581.00	Trial 51 incorrect OrderType 2 Shuffled true Imposter -1 0 points awarded, 6400 total
+582.25	Imposter at position 0
+588.83	Pressed 1
+588.83	Trial 52 correct OrderType 3 Shuffled true Imposter 0 100 points awarded, 6500 total
+589.86	No imposter
+596.32	Pressed 1
+596.32	Trial 53 incorrect OrderType 0 Shuffled false Imposter -1 0 points awarded, 6500 total
+596.88	Imposter at position 11
+603.68	Pressed 1
+603.68	Trial 54 correct OrderType 1 Shuffled false Imposter 11 100 points awarded, 6600 total
+604.10	No imposter
+610.65	Pressed 2
+610.65	Trial 55 correct OrderType 0 Shuffled false Imposter -1 100 points awarded, 6700 total
+611.15	Imposter at position 5
+617.60	Pressed 1
+617.60	Trial 56 correct OrderType 1 Shuffled false Imposter 5 200 points awarded, 6900 total
+618.00	Imposter at position 2
+624.48	Pressed 1
+624.48	Trial 57 correct OrderType 1 Shuffled false Imposter 2 200 points awarded, 7100 total
+625.19	Imposter at position 6
+631.65	Pressed 1
+631.65	Trial 58 correct OrderType 3 Shuffled true Imposter 6 350 points awarded, 7450 total
+632.40	No imposter
+639.18	Pressed 2
+639.18	Trial 59 correct OrderType 2 Shuffled true Imposter -1 350 points awarded, 7800 total
+639.87	No imposter
+646.34	Pressed 2
+646.34	Trial 60 correct OrderType 0 Shuffled false Imposter -1 400 points awarded, 8200 total
+646.79	Imposter at position 3
+653.19	Pressed 1
+653.19	Trial 61 correct OrderType 1 Shuffled false Imposter 3 400 points awarded, 8600 total
+653.77	Imposter at position 10
+660.15	Pressed 1
+660.15	Trial 62 correct OrderType 1 Shuffled false Imposter 10 500 points awarded, 9100 total
+660.64	No imposter
+667.09	Pressed 2
+667.09	Trial 63 correct OrderType 0 Shuffled false Imposter -1 600 points awarded, 9700 total
+667.55	Imposter at position 9
+673.95	Pressed 1
+673.95	Trial 64 correct OrderType 3 Shuffled true Imposter 9 600 points awarded, 10300 total
+674.58	Imposter at position 4
+680.97	Pressed 1
+680.97	Trial 65 correct OrderType 3 Shuffled true Imposter 4 600 points awarded, 10900 total
+681.62	No imposter
+698.05	Pressed 2
+698.05	Trial 66 correct OrderType 0 Shuffled false Imposter -1 600 points awarded, 11500 total
+698.96	No imposter
+705.43	Pressed 1
+705.43	Trial 67 incorrect OrderType 2 Shuffled true Imposter -1 0 points awarded, 11500 total
+721.80	Imposter at position 1
+728.28	Pressed 1
+728.28	Trial 68 correct OrderType 3 Shuffled true Imposter 1 100 points awarded, 11600 total
+729.13	No imposter
+735.62	Pressed 2
+735.62	Trial 69 correct OrderType 2 Shuffled true Imposter -1 100 points awarded, 11700 total
+736.14	No imposter
+742.55	Pressed 1
+742.55	Trial 70 incorrect OrderType 2 Shuffled true Imposter -1 0 points awarded, 11700 total
+742.56	Starting new block
+742.56	Training order created, 25 imposter trials
+742.56	Order 0,1,0,1,0,1,1,0,0,1,1,1,1,0,0,1,0,1,1,1,0,0,1,0,1,1,0,0,1,0,0,1,1,1,0,0,0,1,1,1,0,1,0,1,0,0,0,0,1,0
+742.56	Test order created, 10 imposter trials, 5 in sequence trials
+742.56	Order 0,2,1,3,2,1,1,0,2,2,3,0,3,3,1,0,2,3,1,0
+744.29	No imposter
+751.10	Pressed 1
+751.10	Trial 1 incorrect OrderType 0 Shuffled false Imposter -1 0 points awarded, 11700 total
+754.85	Imposter at position 7
+761.31	Pressed 1
+761.31	Trial 2 correct OrderType 1 Shuffled false Imposter 7 100 points awarded, 11800 total
+761.76	No imposter
+768.21	Pressed 2
+768.21	Trial 3 correct OrderType 0 Shuffled false Imposter -1 100 points awarded, 11900 total
+768.65	Imposter at position 6
+775.06	Pressed 1
+775.06	Trial 4 correct OrderType 1 Shuffled false Imposter 6 200 points awarded, 12100 total
+775.43	No imposter
+782.37	Pressed 2
+782.37	Trial 5 correct OrderType 0 Shuffled false Imposter -1 200 points awarded, 12300 total
+782.87	Imposter at position 0
+789.31	Pressed 1
+789.31	Trial 6 correct OrderType 1 Shuffled false Imposter 0 350 points awarded, 12650 total
+789.78	Imposter at position 8
+796.23	Pressed 1
+796.23	Trial 7 correct OrderType 1 Shuffled false Imposter 8 350 points awarded, 13000 total
+796.63	No imposter
+803.04	Pressed 2
+803.04	Trial 8 correct OrderType 0 Shuffled false Imposter -1 400 points awarded, 13400 total
+803.41	No imposter
+810.53	Pressed 1
+810.53	Trial 9 incorrect OrderType 0 Shuffled false Imposter -1 0 points awarded, 13400 total
+811.54	Imposter at position 1
+817.97	Pressed 1
+817.97	Trial 10 correct OrderType 1 Shuffled false Imposter 1 100 points awarded, 13500 total
+818.52	Imposter at position 3
+824.97	Pressed 1
+824.97	Trial 11 correct OrderType 1 Shuffled false Imposter 3 100 points awarded, 13600 total
+825.60	Imposter at position 9
+832.73	Pressed 1
+832.73	Trial 12 correct OrderType 1 Shuffled false Imposter 9 200 points awarded, 13800 total
+833.23	Imposter at position 5
+839.68	Pressed 1
+839.68	Trial 13 correct OrderType 1 Shuffled false Imposter 5 200 points awarded, 14000 total
+840.12	No imposter
+846.53	Pressed 1
+846.53	Trial 14 incorrect OrderType 0 Shuffled false Imposter -1 0 points awarded, 14000 total
+847.38	No imposter
+853.79	Pressed 1
+853.79	Trial 15 incorrect OrderType 0 Shuffled false Imposter -1 0 points awarded, 14000 total
+854.53	Imposter at position 10
+861.16	Pressed 1
+861.16	Trial 16 correct OrderType 1 Shuffled false Imposter 10 100 points awarded, 14100 total
+861.63	No imposter
+868.09	Pressed 2
+868.09	Trial 17 correct OrderType 0 Shuffled false Imposter -1 100 points awarded, 14200 total
+869.38	Imposter at position 4
+875.77	Pressed 1
+875.77	Trial 18 correct OrderType 1 Shuffled false Imposter 4 200 points awarded, 14400 total
+876.18	Imposter at position 7
+882.62	Pressed 1
+882.62	Trial 19 correct OrderType 1 Shuffled false Imposter 7 200 points awarded, 14600 total
+883.03	Imposter at position 2
+889.46	Pressed 2
+889.46	Trial 20 incorrect OrderType 1 Shuffled false Imposter 2 0 points awarded, 14600 total
+889.98	No imposter
+896.43	Pressed 2
+896.43	Trial 21 correct OrderType 0 Shuffled false Imposter -1 100 points awarded, 14700 total
+896.89	No imposter
+903.40	Pressed 2
+903.40	Trial 22 correct OrderType 0 Shuffled false Imposter -1 100 points awarded, 14800 total
+903.91	Imposter at position 11
+910.46	Pressed 1
+910.46	Trial 23 correct OrderType 1 Shuffled false Imposter 11 200 points awarded, 15000 total
+910.79	No imposter
+917.20	Pressed 1
+917.20	Trial 24 incorrect OrderType 0 Shuffled false Imposter -1 0 points awarded, 15000 total
+917.93	Imposter at position 0
+924.37	Pressed 1
+924.37	Trial 25 correct OrderType 1 Shuffled false Imposter 0 100 points awarded, 15100 total
+924.80	Imposter at position 2
+931.26	Pressed 1
+931.26	Trial 26 correct OrderType 1 Shuffled false Imposter 2 100 points awarded, 15200 total
+931.72	No imposter
+938.01	Pressed 1
+938.01	Trial 27 incorrect OrderType 0 Shuffled false Imposter -1 0 points awarded, 15200 total
+938.82	No imposter
+945.25	Pressed 2
+945.25	Trial 28 correct OrderType 0 Shuffled false Imposter -1 100 points awarded, 15300 total
+945.85	Imposter at position 7
+952.25	Pressed 1
+952.25	Trial 29 correct OrderType 1 Shuffled false Imposter 7 100 points awarded, 15400 total
+952.66	No imposter
+959.08	Pressed 2
+959.08	Trial 30 correct OrderType 0 Shuffled false Imposter -1 200 points awarded, 15600 total
+959.50	No imposter
+965.93	Pressed 1
+965.93	Trial 31 incorrect OrderType 0 Shuffled false Imposter -1 0 points awarded, 15600 total
+966.63	Imposter at position 9
+972.91	Pressed 1
+972.91	Trial 32 correct OrderType 1 Shuffled false Imposter 9 100 points awarded, 15700 total
+973.30	Imposter at position 1
+979.73	Pressed 2
+979.73	Trial 33 incorrect OrderType 1 Shuffled false Imposter 1 0 points awarded, 15700 total
+981.58	Imposter at position 3
+988.00	Pressed 1
+988.00	Trial 34 correct OrderType 1 Shuffled false Imposter 3 100 points awarded, 15800 total
+988.48	No imposter
+994.88	Pressed 2
+994.88	Trial 35 correct OrderType 0 Shuffled false Imposter -1 100 points awarded, 15900 total
+995.26	No imposter
+1001.89	Pressed 2
+1001.89	Trial 36 correct OrderType 0 Shuffled false Imposter -1 200 points awarded, 16100 total
+1002.32	No imposter
+1008.80	Pressed 2
+1008.80	Trial 37 correct OrderType 0 Shuffled false Imposter -1 200 points awarded, 16300 total
+1009.20	Imposter at position 6
+1015.64	Pressed 1
+1015.64	Trial 38 correct OrderType 1 Shuffled false Imposter 6 350 points awarded, 16650 total
+1015.99	Imposter at position 8
+1022.47	Pressed 1
+1022.47	Trial 39 correct OrderType 1 Shuffled false Imposter 8 350 points awarded, 17000 total
+1022.89	Imposter at position 4
+1029.29	Pressed 1
+1029.29	Trial 40 correct OrderType 1 Shuffled false Imposter 4 400 points awarded, 17400 total
+1029.68	No imposter
+1036.13	Pressed 2
+1036.13	Trial 41 correct OrderType 0 Shuffled false Imposter -1 400 points awarded, 17800 total
+1036.55	Imposter at position 11
+1043.26	Pressed 1
+1043.26	Trial 42 correct OrderType 1 Shuffled false Imposter 11 500 points awarded, 18300 total
+1043.60	No imposter
+1050.04	Pressed 2
+1050.04	Trial 43 correct OrderType 0 Shuffled false Imposter -1 600 points awarded, 18900 total
+1050.43	Imposter at position 10
+1056.93	Pressed 1
+1056.93	Trial 44 correct OrderType 1 Shuffled false Imposter 10 600 points awarded, 19500 total
+1057.31	No imposter
+1063.78	Pressed 2
+1063.78	Trial 45 correct OrderType 0 Shuffled false Imposter -1 600 points awarded, 20100 total
+1064.17	No imposter
+1070.69	Pressed 2
+1070.69	Trial 46 correct OrderType 0 Shuffled false Imposter -1 600 points awarded, 20700 total
+1071.05	No imposter
+1077.50	Pressed 2
+1077.50	Trial 47 correct OrderType 0 Shuffled false Imposter -1 600 points awarded, 21300 total
+1077.96	No imposter
+1084.40	Pressed 2
+1084.40	Trial 48 correct OrderType 0 Shuffled false Imposter -1 600 points awarded, 21900 total
+1084.93	Imposter at position 5
+1091.55	Pressed 1
+1091.55	Trial 49 correct OrderType 1 Shuffled false Imposter 5 600 points awarded, 22500 total
+1092.00	No imposter
+1098.48	Pressed 2
+1098.48	Trial 50 correct OrderType 0 Shuffled false Imposter -1 600 points awarded, 23100 total
+1099.97	No imposter
+1106.40	Pressed 1
+1106.40	Trial 51 incorrect OrderType 0 Shuffled false Imposter -1 0 points awarded, 23100 total
+1108.98	No imposter
+1115.56	Pressed 1
+1115.56	Trial 52 incorrect OrderType 2 Shuffled true Imposter -1 0 points awarded, 23100 total
+1116.37	Imposter at position 3
+1123.04	Pressed 1
+1123.04	Trial 53 correct OrderType 1 Shuffled false Imposter 3 100 points awarded, 23200 total
+1123.52	Imposter at position 4
+1130.11	Pressed 1
+1130.11	Trial 54 correct OrderType 3 Shuffled true Imposter 4 100 points awarded, 23300 total
+1130.74	No imposter
+1137.19	Pressed 1
+1137.19	Trial 55 incorrect OrderType 2 Shuffled true Imposter -1 0 points awarded, 23300 total
+1137.60	Imposter at position 9
+1143.98	Pressed 1
+1143.98	Trial 56 correct OrderType 1 Shuffled false Imposter 9 100 points awarded, 23400 total
+1144.37	Imposter at position 10
+1151.67	Pressed 2
+1151.67	Trial 57 incorrect OrderType 1 Shuffled false Imposter 10 0 points awarded, 23400 total
+1152.28	No imposter
+1158.70	Pressed 2
+1158.70	Trial 58 correct OrderType 0 Shuffled false Imposter -1 100 points awarded, 23500 total
+1159.16	No imposter
+1165.62	Pressed 1
+1165.62	Trial 59 incorrect OrderType 2 Shuffled true Imposter -1 0 points awarded, 23500 total
+1166.15	No imposter
+1173.20	Pressed 2
+1173.20	Trial 60 correct OrderType 2 Shuffled true Imposter -1 100 points awarded, 23600 total
+1173.90	Imposter at position 6
+1181.11	Pressed 1
+1181.11	Trial 61 correct OrderType 3 Shuffled true Imposter 6 100 points awarded, 23700 total
+1181.83	No imposter
+1188.30	Pressed 2
+1188.30	Trial 62 correct OrderType 0 Shuffled false Imposter -1 200 points awarded, 23900 total
+1188.67	Imposter at position 5
+1195.21	Pressed 1
+1195.21	Trial 63 correct OrderType 3 Shuffled true Imposter 5 200 points awarded, 24100 total
+1195.77	Imposter at position 7
+1202.53	Pressed 1
+1202.53	Trial 64 correct OrderType 3 Shuffled true Imposter 7 350 points awarded, 24450 total
+1203.18	Imposter at position 11
+1209.89	Pressed 1
+1209.89	Trial 65 correct OrderType 1 Shuffled false Imposter 11 350 points awarded, 24800 total
+1210.55	No imposter
+1217.03	Pressed 2
+1217.03	Trial 66 correct OrderType 0 Shuffled false Imposter -1 400 points awarded, 25200 total
+1217.39	No imposter
+1223.80	Pressed 1
+1223.80	Trial 67 incorrect OrderType 2 Shuffled true Imposter -1 0 points awarded, 25200 total
+1224.21	Imposter at position 8
+1230.63	Pressed 1
+1230.63	Trial 68 correct OrderType 3 Shuffled true Imposter 8 100 points awarded, 25300 total
+1231.07	Imposter at position 0
+1237.55	Pressed 2
+1237.55	Trial 69 incorrect OrderType 1 Shuffled false Imposter 0 0 points awarded, 25300 total
+1237.98	No imposter
+1244.40	Pressed 2
+1244.40	Trial 70 correct OrderType 0 Shuffled false Imposter -1 100 points awarded, 25400 total
+1244.41	Starting new block
+1244.41	Training order created, 25 imposter trials
+1244.41	Order 1,1,1,0,1,1,0,0,1,0,1,0,0,0,0,1,0,0,1,1,1,0,0,0,1,0,1,0,0,0,1,0,0,0,1,1,1,0,1,1,0,1,0,1,1,1,1,0,1,0
+1244.41	Test order created, 10 imposter trials, 5 in sequence trials
+1244.41	Order 3,1,1,3,3,3,1,0,0,2,0,1,2,0,0,3,2,2,1,2
+1245.60	Imposter at position 2
+1355.42	Pressed 2
+1355.42	Trial 1 incorrect OrderType 1 Shuffled false Imposter 2 0 points awarded, 25400 total
+2205.89	Imposter at position 1
+2212.55	Pressed 2
+2212.55	Trial 2 incorrect OrderType 1 Shuffled false Imposter 1 0 points awarded, 25400 total
+2213.24	Imposter at position 7
+2219.63	Pressed 1
+2219.63	Trial 3 correct OrderType 1 Shuffled false Imposter 7 100 points awarded, 25500 total
+2220.31	No imposter
+2227.22	Pressed 2
+2227.22	Trial 4 correct OrderType 0 Shuffled false Imposter -1 100 points awarded, 25600 total
+2228.44	Imposter at position 3
+2234.84	Pressed 1
+2234.84	Trial 5 correct OrderType 1 Shuffled false Imposter 3 200 points awarded, 25800 total
+2235.36	Imposter at position 9
+2241.94	Pressed 1
+2241.94	Trial 6 correct OrderType 1 Shuffled false Imposter 9 200 points awarded, 26000 total
+2242.38	No imposter
+2248.77	Pressed 2
+2248.77	Trial 7 correct OrderType 0 Shuffled false Imposter -1 350 points awarded, 26350 total
+2249.53	No imposter
+2255.86	Pressed 2
+2255.86	Trial 8 correct OrderType 0 Shuffled false Imposter -1 350 points awarded, 26700 total
+2256.42	Imposter at position 10
+2263.16	Pressed 1
+2263.16	Trial 9 correct OrderType 1 Shuffled false Imposter 10 400 points awarded, 27100 total
+2263.69	No imposter
+2270.42	Pressed 2
+2270.42	Trial 10 correct OrderType 0 Shuffled false Imposter -1 400 points awarded, 27500 total
+2270.90	Imposter at position 1
+2277.29	Pressed 2
+2277.29	Trial 11 incorrect OrderType 1 Shuffled false Imposter 1 0 points awarded, 27500 total
+2639.44	No imposter
+2645.91	Pressed 1
+2645.91	Trial 12 incorrect OrderType 0 Shuffled false Imposter -1 0 points awarded, 27500 total
+2646.60	No imposter
+2653.07	Pressed 1
+2653.07	Trial 13 incorrect OrderType 0 Shuffled false Imposter -1 0 points awarded, 27500 total
+2653.86	No imposter
+2660.38	Pressed 1
+2660.38	Trial 14 incorrect OrderType 0 Shuffled false Imposter -1 0 points awarded, 27500 total
+2663.03	No imposter
+2669.62	Pressed 1
+2669.62	Trial 15 incorrect OrderType 0 Shuffled false Imposter -1 0 points awarded, 27500 total
+2738.53	Imposter at position 4
+2745.18	Pressed 1
+2745.18	Trial 16 correct OrderType 1 Shuffled false Imposter 4 100 points awarded, 27600 total
+2745.93	No imposter
+2752.30	Pressed 2
+2752.30	Trial 17 correct OrderType 0 Shuffled false Imposter -1 100 points awarded, 27700 total
+2752.73	No imposter
+2759.11	Pressed 2
+2759.11	Trial 18 correct OrderType 0 Shuffled false Imposter -1 200 points awarded, 27900 total
+2759.49	Imposter at position 2
+2765.89	Pressed 1
+2765.89	Trial 19 correct OrderType 1 Shuffled false Imposter 2 200 points awarded, 28100 total
+2766.28	Imposter at position 6
+2772.70	Pressed 2
+2772.70	Trial 20 incorrect OrderType 1 Shuffled false Imposter 6 0 points awarded, 28100 total
+2773.02	Imposter at position 8
+2779.40	Pressed 1
+2779.40	Trial 21 correct OrderType 1 Shuffled false Imposter 8 100 points awarded, 28200 total
+2779.79	No imposter
+2786.19	Pressed 2
+2786.19	Trial 22 correct OrderType 0 Shuffled false Imposter -1 100 points awarded, 28300 total
+2786.57	No imposter
+2793.01	Pressed 2
+2793.01	Trial 23 correct OrderType 0 Shuffled false Imposter -1 200 points awarded, 28500 total
+2896.79	No imposter
+2903.89	Pressed 2
+2903.89	Trial 24 correct OrderType 0 Shuffled false Imposter -1 200 points awarded, 28700 total
+2904.38	Imposter at position 0
+2910.85	Pressed 2
+2910.85	Trial 25 incorrect OrderType 1 Shuffled false Imposter 0 0 points awarded, 28700 total
+2911.45	No imposter
+2917.87	Pressed 2
+2917.87	Trial 26 correct OrderType 0 Shuffled false Imposter -1 100 points awarded, 28800 total
+2918.24	Imposter at position 11
+2924.72	Pressed 1
+2924.72	Trial 27 correct OrderType 1 Shuffled false Imposter 11 100 points awarded, 28900 total
+2925.19	No imposter
+2932.26	Pressed 1
+2932.26	Trial 28 incorrect OrderType 0 Shuffled false Imposter -1 0 points awarded, 28900 total
+3033.37	No imposter
+3039.85	Pressed 2
+3039.85	Trial 29 correct OrderType 0 Shuffled false Imposter -1 100 points awarded, 29000 total
+3040.75	No imposter
+3047.15	Pressed 2
+3047.15	Trial 30 correct OrderType 0 Shuffled false Imposter -1 100 points awarded, 29100 total
+3047.51	Imposter at position 5
+3053.74	Pressed 1
+3053.74	Trial 31 correct OrderType 1 Shuffled false Imposter 5 200 points awarded, 29300 total
+3054.13	No imposter
+3060.39	Pressed 2
+3060.39	Trial 32 correct OrderType 0 Shuffled false Imposter -1 200 points awarded, 29500 total
+3060.70	No imposter
+3067.14	Pressed 2
+3067.14	Trial 33 correct OrderType 0 Shuffled false Imposter -1 350 points awarded, 29850 total
+3067.47	No imposter
+3074.19	Pressed 1
+3074.19	Trial 34 incorrect OrderType 0 Shuffled false Imposter -1 0 points awarded, 29850 total
+3074.93	Imposter at position 4
+3081.41	Pressed 1
+3081.41	Trial 35 correct OrderType 1 Shuffled false Imposter 4 100 points awarded, 29950 total
+3081.80	Imposter at position 7
+3088.20	Pressed 1
+3088.20	Trial 36 correct OrderType 1 Shuffled false Imposter 7 100 points awarded, 30050 total
+3088.59	Imposter at position 11
+3095.04	Pressed 1
+3095.04	Trial 37 correct OrderType 1 Shuffled false Imposter 11 200 points awarded, 30250 total
+3095.38	No imposter
+3208.40	Pressed 1
+3208.40	Trial 38 incorrect OrderType 0 Shuffled false Imposter -1 0 points awarded, 30250 total
+3212.63	Imposter at position 8
+3219.04	Pressed 1
+3219.04	Trial 39 correct OrderType 1 Shuffled false Imposter 8 100 points awarded, 30350 total
+3219.50	Imposter at position 1
+3225.90	Pressed 2
+3225.90	Trial 40 incorrect OrderType 1 Shuffled false Imposter 1 0 points awarded, 30350 total
+3226.96	No imposter
+3234.19	Pressed 2
+3234.19	Trial 41 correct OrderType 0 Shuffled false Imposter -1 100 points awarded, 30450 total
+3234.69	Imposter at position 5
+3241.35	Pressed 1
+3241.35	Trial 42 correct OrderType 1 Shuffled false Imposter 5 100 points awarded, 30550 total
+3242.01	No imposter
+3248.68	Pressed 2
+3248.68	Trial 43 correct OrderType 0 Shuffled false Imposter -1 200 points awarded, 30750 total
+3249.06	Imposter at position 3
+3329.33	Pressed 1
+3329.33	Trial 44 correct OrderType 1 Shuffled false Imposter 3 200 points awarded, 30950 total
+3330.16	Imposter at position 9
+3336.54	Pressed 1
+3336.54	Trial 45 correct OrderType 1 Shuffled false Imposter 9 350 points awarded, 31300 total
+3336.86	Imposter at position 6
+3343.23	Pressed 1
+3343.23	Trial 46 correct OrderType 1 Shuffled false Imposter 6 350 points awarded, 31650 total
+3343.62	Imposter at position 10
+3350.17	Pressed 1
+3350.17	Trial 47 correct OrderType 1 Shuffled false Imposter 10 400 points awarded, 32050 total
+3350.54	No imposter
+3356.98	Pressed 2
+3356.98	Trial 48 correct OrderType 0 Shuffled false Imposter -1 400 points awarded, 32450 total
+3357.42	Imposter at position 0
+3363.80	Pressed 1
+3363.80	Trial 49 correct OrderType 1 Shuffled false Imposter 0 500 points awarded, 32950 total
+3364.20	No imposter
+3370.46	Pressed 2
+3370.46	Trial 50 correct OrderType 0 Shuffled false Imposter -1 600 points awarded, 33550 total
+3371.89	Imposter at position 2
+3378.55	Pressed 1
+3378.55	Trial 51 correct OrderType 3 Shuffled true Imposter 2 600 points awarded, 34150 total
+3379.00	Imposter at position 11
+3386.01	Pressed 1
+3386.01	Trial 52 correct OrderType 1 Shuffled false Imposter 11 600 points awarded, 34750 total
+3386.39	Imposter at position 5
+3392.85	Pressed 1
+3392.85	Trial 53 correct OrderType 1 Shuffled false Imposter 5 600 points awarded, 35350 total
+3393.23	Imposter at position 7
+3399.66	Pressed 1
+3399.66	Trial 54 correct OrderType 3 Shuffled true Imposter 7 600 points awarded, 35950 total
+3400.01	Imposter at position 4
+3406.44	Pressed 1
+3406.44	Trial 55 correct OrderType 3 Shuffled true Imposter 4 600 points awarded, 36550 total
+3406.82	Imposter at position 10
+3413.38	Pressed 1
+3413.38	Trial 56 correct OrderType 3 Shuffled true Imposter 10 600 points awarded, 37150 total
+3413.89	Imposter at position 0
+3420.57	Pressed 2
+3420.57	Trial 57 incorrect OrderType 1 Shuffled false Imposter 0 0 points awarded, 37150 total
+3432.59	No imposter
+3439.00	Pressed 2
+3439.00	Trial 58 correct OrderType 0 Shuffled false Imposter -1 100 points awarded, 37250 total
+3439.43	No imposter
+3445.84	Pressed 2
+3445.84	Trial 59 correct OrderType 0 Shuffled false Imposter -1 100 points awarded, 37350 total
+3446.25	No imposter
+3452.78	Pressed 1
+3452.78	Trial 60 incorrect OrderType 2 Shuffled true Imposter -1 0 points awarded, 37350 total
+3454.40	No imposter
+3460.79	Pressed 2
+3460.79	Trial 61 correct OrderType 0 Shuffled false Imposter -1 100 points awarded, 37450 total
+3461.16	Imposter at position 6
+3467.61	Pressed 1
+3467.61	Trial 62 correct OrderType 1 Shuffled false Imposter 6 100 points awarded, 37550 total
+3468.00	No imposter
+3474.62	Pressed 1
+3474.62	Trial 63 incorrect OrderType 2 Shuffled true Imposter -1 0 points awarded, 37550 total
+3476.37	No imposter
+3483.30	Pressed 2
+3483.30	Trial 64 correct OrderType 0 Shuffled false Imposter -1 100 points awarded, 37650 total
+3483.84	No imposter
+3490.13	Pressed 2
+3490.13	Trial 65 correct OrderType 0 Shuffled false Imposter -1 100 points awarded, 37750 total
+3490.67	Imposter at position 3
+3498.53	Pressed 2
+3498.53	Trial 66 incorrect OrderType 3 Shuffled true Imposter 3 0 points awarded, 37750 total
+3499.17	No imposter
+3505.65	Pressed 2
+3505.65	Trial 67 correct OrderType 2 Shuffled true Imposter -1 100 points awarded, 37850 total
+3506.14	No imposter
+3512.73	Pressed 2
+3512.73	Trial 68 correct OrderType 2 Shuffled true Imposter -1 100 points awarded, 37950 total
+3513.24	Imposter at position 2
+3519.65	Pressed 1
+3519.65	Trial 69 correct OrderType 1 Shuffled false Imposter 2 200 points awarded, 38150 total
+3520.14	No imposter
+3527.48	Pressed 2
+3527.48	Trial 70 correct OrderType 2 Shuffled true Imposter -1 200 points awarded, 38350 total
+3527.50	Starting new block
+3527.50	Training order created, 25 imposter trials
+3527.50	Order 1,0,0,0,1,0,1,1,0,1,1,1,0,0,0,1,1,0,1,1,0,1,0,1,0,1,0,1,1,1,1,0,0,0,1,0,1,0,0,0,0,0,0,1,1,0,1,0,1,1
+3527.50	Test order created, 10 imposter trials, 5 in sequence trials
+3527.50	Order 3,3,3,2,3,0,2,1,0,1,0,0,3,2,1,1,2,0,2,1
+3528.80	Imposter at position 9
+3535.21	Pressed 1
+3535.21	Trial 1 correct OrderType 1 Shuffled false Imposter 9 350 points awarded, 38700 total
+3542.58	No imposter
+3549.01	Pressed 2
+3549.01	Trial 2 correct OrderType 0 Shuffled false Imposter -1 350 points awarded, 39050 total
+3549.41	No imposter
+3555.78	Pressed 2
+3555.78	Trial 3 correct OrderType 0 Shuffled false Imposter -1 400 points awarded, 39450 total
+3556.16	No imposter
+3648.18	Pressed 2
+3648.18	Trial 4 correct OrderType 0 Shuffled false Imposter -1 400 points awarded, 39850 total
+3649.15	Imposter at position 1
+3655.63	Pressed 1
+3655.63	Trial 5 correct OrderType 1 Shuffled false Imposter 1 500 points awarded, 40350 total
+3656.08	No imposter
+3662.57	Pressed 2
+3662.57	Trial 6 correct OrderType 0 Shuffled false Imposter -1 600 points awarded, 40950 total
+3663.43	Imposter at position 8
+3669.90	Pressed 1
+3669.90	Trial 7 correct OrderType 1 Shuffled false Imposter 8 600 points awarded, 41550 total
+3670.34	Imposter at position 5
+3676.80	Pressed 1
+3676.80	Trial 8 correct OrderType 1 Shuffled false Imposter 5 600 points awarded, 42150 total
+3677.43	No imposter
+3683.88	Pressed 2
+3683.88	Trial 9 correct OrderType 0 Shuffled false Imposter -1 600 points awarded, 42750 total
+3684.35	Imposter at position 10
+3690.82	Pressed 1
+3690.82	Trial 10 correct OrderType 1 Shuffled false Imposter 10 600 points awarded, 43350 total
+3691.26	Imposter at position 8
+3697.74	Pressed 1
+3697.74	Trial 11 correct OrderType 1 Shuffled false Imposter 8 600 points awarded, 43950 total
+3698.33	Imposter at position 9
+3704.83	Pressed 1
+3704.83	Trial 12 correct OrderType 1 Shuffled false Imposter 9 600 points awarded, 44550 total
+3705.30	No imposter
+3712.71	Pressed 1
+3712.71	Trial 13 incorrect OrderType 0 Shuffled false Imposter -1 0 points awarded, 44550 total
+3815.58	No imposter
+3822.02	Pressed 1
+3822.02	Trial 14 incorrect OrderType 0 Shuffled false Imposter -1 0 points awarded, 44550 total
+4089.34	No imposter
+4096.80	Pressed 1
+4096.80	Trial 15 incorrect OrderType 0 Shuffled false Imposter -1 0 points awarded, 44550 total
+4097.51	Imposter at position 6
+4104.57	Pressed 1
+4104.57	Trial 16 correct OrderType 1 Shuffled false Imposter 6 100 points awarded, 44650 total
+4105.39	Imposter at position 2
+4111.83	Pressed 1
+4111.83	Trial 17 correct OrderType 1 Shuffled false Imposter 2 100 points awarded, 44750 total
+4112.31	No imposter
+4119.04	Pressed 2
+4119.04	Trial 18 correct OrderType 0 Shuffled false Imposter -1 200 points awarded, 44950 total
+4119.53	Imposter at position 11
+4126.14	Pressed 1
+4126.14	Trial 19 correct OrderType 1 Shuffled false Imposter 11 200 points awarded, 45150 total
+4126.51	Imposter at position 1
+4133.40	Pressed 1
+4133.40	Trial 20 correct OrderType 1 Shuffled false Imposter 1 350 points awarded, 45500 total
+4133.79	No imposter
+4140.97	Pressed 2
+4140.97	Trial 21 correct OrderType 0 Shuffled false Imposter -1 350 points awarded, 45850 total
+4141.47	Imposter at position 4
+4147.87	Pressed 1
+4147.87	Trial 22 correct OrderType 1 Shuffled false Imposter 4 400 points awarded, 46250 total
+4148.17	No imposter
+4154.56	Pressed 2
+4154.56	Trial 23 correct OrderType 0 Shuffled false Imposter -1 400 points awarded, 46650 total
+4154.96	Imposter at position 0
+4163.54	Pressed 1
+4163.54	Trial 24 correct OrderType 1 Shuffled false Imposter 0 500 points awarded, 47150 total
+4164.09	No imposter
+4170.51	Pressed 2
+4170.51	Trial 25 correct OrderType 0 Shuffled false Imposter -1 600 points awarded, 47750 total
+4170.85	Imposter at position 7
+4177.36	Pressed 1
+4177.36	Trial 26 correct OrderType 1 Shuffled false Imposter 7 600 points awarded, 48350 total
+4177.86	No imposter
+4187.20	Pressed 2
+4187.20	Trial 27 correct OrderType 0 Shuffled false Imposter -1 600 points awarded, 48950 total
+4188.63	Imposter at position 3
+4195.08	Pressed 1
+4195.08	Trial 28 correct OrderType 1 Shuffled false Imposter 3 600 points awarded, 49550 total
+4195.50	Imposter at position 9
+4202.85	Pressed 1
+4202.85	Trial 29 correct OrderType 1 Shuffled false Imposter 9 600 points awarded, 50150 total
+4203.29	Imposter at position 10
+4209.75	Pressed 1
+4209.75	Trial 30 correct OrderType 1 Shuffled false Imposter 10 600 points awarded, 50750 total
+4210.16	Imposter at position 8
+4217.05	Pressed 1
+4217.05	Trial 31 correct OrderType 1 Shuffled false Imposter 8 600 points awarded, 51350 total
+4218.93	No imposter
+4225.64	Pressed 2
+4225.64	Trial 32 correct OrderType 0 Shuffled false Imposter -1 600 points awarded, 51950 total
+4226.11	No imposter
+4232.39	Pressed 2
+4232.39	Trial 33 correct OrderType 0 Shuffled false Imposter -1 600 points awarded, 52550 total
+4232.93	No imposter
+4239.55	Pressed 2
+4239.55	Trial 34 correct OrderType 0 Shuffled false Imposter -1 600 points awarded, 53150 total
+4239.98	Imposter at position 1
+4246.50	Pressed 1
+4246.50	Trial 35 correct OrderType 1 Shuffled false Imposter 1 600 points awarded, 53750 total
+4246.93	No imposter
+4253.14	Pressed 2
+4253.14	Trial 36 correct OrderType 0 Shuffled false Imposter -1 600 points awarded, 54350 total
+4253.59	Imposter at position 0
+4260.31	Pressed 1
+4260.31	Trial 37 correct OrderType 1 Shuffled false Imposter 0 600 points awarded, 54950 total
+4260.89	No imposter
+4267.13	Pressed 2
+4267.13	Trial 38 correct OrderType 0 Shuffled false Imposter -1 600 points awarded, 55550 total
+4268.16	No imposter
+4274.38	Pressed 2
+4274.38	Trial 39 correct OrderType 0 Shuffled false Imposter -1 600 points awarded, 56150 total
+4274.86	No imposter
+4281.12	Pressed 2
+4281.12	Trial 40 correct OrderType 0 Shuffled false Imposter -1 600 points awarded, 56750 total
+4281.65	No imposter
+4287.91	Pressed 2
+4287.91	Trial 41 correct OrderType 0 Shuffled false Imposter -1 600 points awarded, 57350 total
+4291.47	No imposter
+4297.71	Pressed 2
+4297.71	Trial 42 correct OrderType 0 Shuffled false Imposter -1 600 points awarded, 57950 total
+4298.23	No imposter
+4304.70	Pressed 2
+4304.70	Trial 43 correct OrderType 0 Shuffled false Imposter -1 600 points awarded, 58550 total
+4305.13	Imposter at position 11
+4311.64	Pressed 1
+4311.64	Trial 44 correct OrderType 1 Shuffled false Imposter 11 600 points awarded, 59150 total
+4312.25	Imposter at position 4
+4318.90	Pressed 1
+4318.90	Trial 45 correct OrderType 1 Shuffled false Imposter 4 600 points awarded, 59750 total
+4319.88	No imposter
+4327.04	Pressed 2
+4327.04	Trial 46 correct OrderType 0 Shuffled false Imposter -1 600 points awarded, 60350 total
+4327.49	Imposter at position 7
+4334.16	Pressed 1
+4334.16	Trial 47 correct OrderType 1 Shuffled false Imposter 7 600 points awarded, 60950 total
+4336.49	No imposter
+4342.75	Pressed 2
+4342.75	Trial 48 correct OrderType 0 Shuffled false Imposter -1 600 points awarded, 61550 total
+4343.43	Imposter at position 6
+4349.90	Pressed 1
+4349.90	Trial 49 correct OrderType 1 Shuffled false Imposter 6 600 points awarded, 62150 total
+4350.33	Imposter at position 2
+4356.86	Pressed 1
+4356.86	Trial 50 correct OrderType 1 Shuffled false Imposter 2 600 points awarded, 62750 total
+4358.26	Imposter at position 5
+4364.69	Pressed 1
+4364.69	Trial 51 correct OrderType 3 Shuffled true Imposter 5 600 points awarded, 63350 total
+4365.11	Imposter at position 3
+4371.87	Pressed 1
+4371.88	Trial 52 correct OrderType 3 Shuffled true Imposter 3 600 points awarded, 63950 total
+4372.59	Imposter at position 7
+4379.07	Pressed 1
+4379.07	Trial 53 correct OrderType 3 Shuffled true Imposter 7 600 points awarded, 64550 total
+4379.48	No imposter
+4386.13	Pressed 2
+4386.13	Trial 54 correct OrderType 2 Shuffled true Imposter -1 600 points awarded, 65150 total
+4386.57	Imposter at position 1
+4393.09	Pressed 2
+4393.10	Trial 55 incorrect OrderType 3 Shuffled true Imposter 1 0 points awarded, 65150 total
+4395.20	No imposter
+4401.85	Pressed 2
+4401.85	Trial 56 correct OrderType 0 Shuffled false Imposter -1 100 points awarded, 65250 total
+4402.55	No imposter
+4408.97	Pressed 2
+4408.97	Trial 57 correct OrderType 2 Shuffled true Imposter -1 100 points awarded, 65350 total
+4409.44	Imposter at position 3
+4415.69	Pressed 1
+4415.69	Trial 58 correct OrderType 1 Shuffled false Imposter 3 200 points awarded, 65550 total
+4416.13	No imposter
+4423.73	Pressed 2
+4423.73	Trial 59 correct OrderType 0 Shuffled false Imposter -1 200 points awarded, 65750 total
+4424.23	Imposter at position 9
+4430.65	Pressed 1
+4430.65	Trial 60 correct OrderType 1 Shuffled false Imposter 9 350 points awarded, 66100 total
+4431.04	No imposter
+4437.39	Pressed 1
+4437.39	Trial 61 incorrect OrderType 0 Shuffled false Imposter -1 0 points awarded, 66100 total
+4438.07	No imposter
+4444.50	Pressed 2
+4444.50	Trial 62 correct OrderType 0 Shuffled false Imposter -1 100 points awarded, 66200 total
+4444.83	Imposter at position 5
+4451.24	Pressed 1
+4451.24	Trial 63 correct OrderType 3 Shuffled true Imposter 5 100 points awarded, 66300 total
+4451.55	No imposter
+4457.99	Pressed 2
+4457.99	Trial 64 correct OrderType 2 Shuffled true Imposter -1 200 points awarded, 66500 total
+4458.42	Imposter at position 10
+4464.93	Pressed 1
+4464.93	Trial 65 correct OrderType 1 Shuffled false Imposter 10 200 points awarded, 66700 total
+4465.25	Imposter at position 6
+4471.73	Pressed 1
+4471.73	Trial 66 correct OrderType 1 Shuffled false Imposter 6 350 points awarded, 67050 total
+4472.15	No imposter
+4478.58	Pressed 2
+4478.58	Trial 67 correct OrderType 2 Shuffled true Imposter -1 350 points awarded, 67400 total
+4478.91	No imposter
+4485.54	Pressed 2
+4485.54	Trial 68 correct OrderType 0 Shuffled false Imposter -1 400 points awarded, 67800 total
+4485.88	No imposter
+4492.33	Pressed 2
+4492.33	Trial 69 correct OrderType 2 Shuffled true Imposter -1 400 points awarded, 68200 total
+4492.70	Imposter at position 11
+4499.15	Pressed 1
+4499.15	Trial 70 correct OrderType 1 Shuffled false Imposter 11 500 points awarded, 68700 total
+4499.16	Browser name Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.99 Safari/537.36
+4499.16	Used keyboard [true], mouse [true], touchscreen [false]
+4499.16	Completion code I9JS7
+</Empirical:datalog>
+
+<Empirical:recorddata>RecordId: 33642
+SessionToken: A31XT6RPLN6359
+WorkerId: f2047a08956091e9
+UploadDate: 2022-02-07 20:52:07.569781+00:00
+</Empirical:recorddata></root>
